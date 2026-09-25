@@ -1,0 +1,95 @@
+header, nav, ul, nav a, .cta {
+    display: flex;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+header {
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 6px 16px hsla(26, 4%, 33%, 0.22);
+    margin-bottom: 50px;
+}
+.nav {
+    justify-content: space-between;
+    align-items: center;
+    min-width: 1400px;
+}
+.yra-title-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.yr-title {
+    display: block;
+    color: hsl(210, 24%, 16%);
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.a-title {
+    display: block;
+    font-weight: bold;
+    color: hsl(30, 100%, 54%);
+    font-size: 1.2em;
+}
+.cta {
+    margin-left: 64px;
+    gap: 16px;
+}
+ul {
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 36px;
+}
+li a{
+    color: hsl(205, 16%, 27%);
+    font-weight: bold;
+    cursor: pointer;
+}
+li a:hover {
+    color: hsl(205, 16%, 57%);
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+button {
+    font-family:
+        Inter,
+        ui-sans-serif,
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        sans-serif;
+    border-radius: 10px;
+    padding: 21px 27px;
+    font-size: 1.2em;
+    font-weight: 750;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.login-btn {
+    color: hsl(194, 68%, 38%);
+    background-color: white;
+}
+.login-btn:hover {
+    transform: translateY(-1px);
+}
+.join-yra-btn {
+    color: white;
+    background-color: hsl(30, 100%, 54%);
+    box-shadow: 0 7px 18px hsla(28, 100%, 55%, 0.22);
+    border: none;
+}
+.join-yra-btn:hover {
+    transform: translateY(-1px);
+}
